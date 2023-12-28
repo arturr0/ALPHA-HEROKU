@@ -12,7 +12,7 @@
     <button onclick="sendMsg()">Send Msg</button>
 
     <script>
-        const socket = io.connect('https://alphawsheroku-f9cf494f1b3a.herokuapp.com/');
+        const socket = socket.io.connect('https://alphawsheroku-f9cf494f1b3a.herokuapp.com/');
 
         socket.on('connect', () => {
             console.log('Connected to the WebSocket server!');

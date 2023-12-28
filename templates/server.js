@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://localhost:5000");
+const socket = new WebSocket("ws://alphawsheroku-f9cf494f1b3a.herokuapp.com/");
 
 socket.onopen = (event) => {
   console.log("WebSocket connection opened:", event);
